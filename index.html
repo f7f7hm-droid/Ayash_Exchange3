@@ -5,7 +5,7 @@
   <title>عياش للصرافة والتحويلات</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- أيقونات -->
+  <!-- Font Awesome -->
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 
@@ -17,32 +17,42 @@
       color:white;
       display:flex;
       justify-content:center;
-      align-items:center;
       min-height:100vh;
-      text-align:right;
     }
+
     .container{
+      width:100%;
       max-width:420px;
       padding:20px;
-    }
-    h1{
       text-align:center;
+    }
+
+    h1{
+      margin-bottom:25px;
       font-size:22px;
-      margin-bottom:20px;
     }
-    .item{
-      margin:14px 0;
-      line-height:1.8;
-      font-size:14px;
-    }
-    .item i{
-      color:#fda100;
-      margin-left:8px;
-    }
-    a{
-      color:#fda100;
+
+    .btn{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      background:#fda100;
+      color:#093b84;
+      padding:14px 18px;
+      border-radius:12px;
+      margin-bottom:14px;
       text-decoration:none;
+      font-size:15px;
       font-weight:bold;
+    }
+
+    .btn i{
+      font-size:18px;
+    }
+
+    .btn span{
+      flex:1;
+      text-align:center;
     }
   </style>
 </head>
@@ -52,52 +62,47 @@
 
     <h1>عياش للصرافة والتحويلات</h1>
 
-    <div class="item">
-      <i class="fa-solid fa-location-dot"></i>
-      <strong>الإدارة العامة:</strong><br>
-      الجمهورية اليمنية – إب – شارع ميتم – تقاطع خط بعدان والجوازات<br>
+    <a class="btn" href="tel:044544443">
       <i class="fa-solid fa-phone"></i>
-      044544443 – 044544445
-    </div>
-
-    <div class="item">
+      <span>الإدارة العامة</span>
       <i class="fa-solid fa-location-dot"></i>
-      <strong>فرع شارع تعز – أمام جامع السلام</strong><br>
-      <i class="fa-solid fa-mobile-screen"></i>
-      777924113 – 777497401 – 733244195 – 733293605<br>
-      <i class="fa-solid fa-phone"></i>
-      04404205 – 04407401
-    </div>
+    </a>
 
-    <div class="item">
+    <a class="btn" href="tel:04404205">
+      <i class="fa-solid fa-phone"></i>
+      <span>فرع شارع تعز</span>
+      <i class="fa-solid fa-location-dot"></i>
+    </a>
+
+    <a class="btn" href="tel:774340100">
       <i class="fa-solid fa-headset"></i>
-      <strong>خدمة العملاء:</strong><br>
-      774340100 – 779089000
-    </div>
+      <span>خدمة العملاء</span>
+      <i class="fa-solid fa-phone"></i>
+    </a>
 
-    <div class="item">
+    <a class="btn" href="https://wa.me/967780404205">
       <i class="fa-brands fa-whatsapp"></i>
-      <strong>واتساب:</strong><br>
-      <a href="https://wa.me/967780404205">780404205</a>
-    </div>
+      <span>واتساب</span>
+      <i class="fa-solid fa-comment"></i>
+    </a>
 
-    <div class="item">
+    <a class="btn" href="mailto:s.aiyash@yahoo.com">
       <i class="fa-solid fa-envelope"></i>
-      <strong>الإيميل:</strong><br>
-      <a href="mailto:s.aiyash@yahoo.com">s.aiyash@yahoo.com</a>
-    </div>
+      <span>الإيميل</span>
+      <i class="fa-solid fa-paper-plane"></i>
+    </a>
 
-    <div class="item">
+    <a class="btn" href="https://www.instagram.com/aiyashex">
       <i class="fa-brands fa-instagram"></i>
-      <strong>إنستجرام:</strong><br>
-      <a href="https://www.instagram.com/aiyashex">instagram.com/aiyashex</a>
-    </div>
+      <span>إنستجرام</span>
+      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    </a>
 
-    <div class="item">
+    <a class="btn" href="https://www.facebook.com/share/1GXxjmQ14Y/">
       <i class="fa-brands fa-facebook"></i>
-      <strong>فيسبوك:</strong><br>
-      <a href="https://www.facebook.com/share/1GXxjmQ14Y/">صفحة فيسبوك</a>
-    </div>
+      <span>فيسبوك</span>
+      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    </a>
 
   </div>
 </body>
