@@ -15,46 +15,37 @@ body{
   align-items:center;
   min-height:100vh;
 }
+
 .container{
   width:100%;
   max-width:420px;
   padding:20px;
-  color:white;
-}
-h1{
   text-align:center;
+  color:#fff;
+}
+
+h1{
   margin-bottom:25px;
   font-size:22px;
 }
-.item{
-  display:flex;
-  align-items:flex-start;
-  margin-bottom:18px;
-}
-.icon{
-  width:36px;
-  height:36px;
-  min-width:36px;
+
+.btn{
+  display:block;
   background:#fda100;
-  border-radius:50%;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  margin-left:12px;
-}
-.icon svg{
-  width:18px;
-  height:18px;
-  fill:#093b84;
-}
-.text{
-  font-size:14px;
-  line-height:1.8;
-}
-a{
-  color:#fda100;
+  color:#093b84;
+  padding:16px;
+  border-radius:14px;
+  margin-bottom:14px;
   text-decoration:none;
+  font-size:15px;
   font-weight:bold;
+}
+
+.btn small{
+  display:block;
+  font-size:12px;
+  margin-top:6px;
+  color:#093b84;
 }
 </style>
 </head>
@@ -64,77 +55,50 @@ a{
 
 <h1>عياش للصرافة والتحويلات</h1>
 
-<div class="item">
-  <div class="icon">
-    <svg viewBox="0 0 24 24"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/></svg>
-  </div>
-  <div class="text">
-    <strong>الإدارة العامة</strong><br>
-    الجمهورية اليمنية – إب – شارع ميتم – تقاطع خط بعدان والجوازات<br>
-    ☎ 044544443 – 044544445
-  </div>
-</div>
+<a class="btn" href="#">
+📍 الإدارة العامة
+<small>إب – شارع ميتم – تقاطع خط بعدان والجوازات</small>
+</a>
 
-<div class="item">
-  <div class="icon">
-    <svg viewBox="0 0 24 24"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/></svg>
-  </div>
-  <div class="text">
-    <strong>فرع شارع تعز – أمام جامع السلام</strong><br>
-    📱 777924113 – 777497401 – 733244195 – 733293605<br>
-    ☎ 04404205 – 04407401
-  </div>
-</div>
+<a class="btn" href="tel:044544443">
+☎ تلفون الإدارة
+<small>044544443 – 044544445</small>
+</a>
 
-<div class="item">
-  <div class="icon">
-    <svg viewBox="0 0 24 24"><path d="M4 2h16v14H5.17L4 17.17V2z"/></svg>
-  </div>
-  <div class="text">
-    <strong>خدمة العملاء</strong><br>
-    967774340100 – 967779089000
-  </div>
-</div>
+<a class="btn" href="#">
+📍 فرع شارع تعز
+<small>أمام جامع السلام</small>
+</a>
 
-<div class="item">
-  <div class="icon">
-    <svg viewBox="0 0 24 24"><path d="M16.7 14.3c-.6-.6-1.5-.6-2.1 0l-1.1 1.1c-1.6-.8-3-2.2-3.8-3.8l1.1-1.1c.6-.6.6-1.5 0-2.1L8.4 6c-.6-.6-1.5-.6-2.1 0L5 7.3c-.5.5-.7 1.2-.6 1.9.7 3 3.7 6 6.7 6.7.7.2 1.4 0 1.9-.6l1.3-1.3z"/></svg>
-  </div>
-  <div class="text">
-    <strong>واتساب</strong><br>
-    <a href="https://wa.me/967780404205">967780404205</a>
-  </div>
-</div>
+<a class="btn" href="tel:777924113">
+📱 جوال الفرع
+<small>777924113 – 777497401 – 733244195 – 733293605</small>
+</a>
 
-<div class="item">
-  <div class="icon">
-    <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
-  </div>
-  <div class="text">
-    <strong>الإيميل</strong><br>
-    <a href="mailto:s.aiyash@yahoo.com">s.aiyash@yahoo.com</a>
-  </div>
-</div>
+<a class="btn" href="tel:774340100">
+🎧 خدمة العملاء
+<small>774340100 – 779089000</small>
+</a>
 
-<div class="item">
-  <div class="icon">
-    <svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5z"/></svg>
-  </div>
-  <div class="text">
-    <strong>إنستجرام</strong><br>
-    <a href="https://www.instagram.com/aiyashex">instagram.com/aiyashex</a>
-  </div>
-</div>
+<a class="btn" href="https://wa.me/967780404205">
+💬 واتساب
+<small>780404205</small>
+</a>
 
-<div class="item">
-  <div class="icon">
-    <svg viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7h-2v-3h2V9.5c0-2 1.2-3.1 3-3.1.9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2V12h2.3l-.4 3h-1.9v7A10 10 0 0 0 22 12z"/></svg>
-  </div>
-  <div class="text">
-    <strong>فيسبوك</strong><br>
-    <a href="https://www.facebook.com/share/1GXxjmQ14Y/">صفحة فيسبوك</a>
-  </div>
-</div>
+<a class="btn" href="mailto:s.aiyash@yahoo.com">
+✉ الإيميل
+<small>s.aiyash@yahoo.com</small>
+</a>
+
+<a class="btn" href="https://www.instagram.com/aiyashex">
+📷 إنستجرام
+<small>instagram.com/aiyashex</small>
+</a>
+
+<a class="btn" href="https://www.facebook.com/share/1GXxjmQ14Y/">
+📘 فيسبوك
+<small>صفحة فيسبوك</small>
+</a>
 
 </div>
 </body>
